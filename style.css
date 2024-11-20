@@ -1,5 +1,5 @@
 *{
-    max-height: 100%;
+    
     overflow: hidden;
 }
 
@@ -8,6 +8,7 @@ body{
     background-size: cover;
     font: normal 15pt 'Calibri';
     margin: 0;
+    
     
 }
 
@@ -25,9 +26,8 @@ section{
     width: 500px;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.253);
-    overflow: hidden;
-    overflow-x: auto; 
-    overflow-y: hidden;
+    display: 100vh;
+   
     
   
     
