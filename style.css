@@ -1,9 +1,14 @@
+*{
+    max-height: 100%;
+    overflow: hidden;
+}
+
 body{
     background-image: linear-gradient(#89d0fd, rgba(0, 0, 0, 0.534));
     background-size: cover;
     font: normal 15pt 'Calibri';
     margin: 0;
-    height: 100vh;
+    
 }
 
 header{
