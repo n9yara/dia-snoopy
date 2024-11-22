@@ -7,13 +7,14 @@ function carregar(){
     
      if(hora >= 6 && hora < 12){
         img.src = 'dia.png'
-        document.body.style.background = '#89d0fd'
+        document.body.style.background = '#4a8ed3'
     }else if(hora >= 12 && hora < 18){
         img.src = 'tarde.png'
-        document.body.style.background = '#efcb51'
+        document.body.style.background = '#d6ce35'
     }else if(hora >= 18 && hora <= 23){
-        img.src = 'noite.png'
-        document.body.style.background = '#4979af'
+        img.src = 'sleep.jpg'
+        document.body.style.background = '#5F8CC3'
+        
    
     }else{
         img.src = 'madrugada.gif'
