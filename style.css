@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Henny+Penny&family=Indie+Flower&family=Itim&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Passion+One:wght@400;700;900&family=Roboto&family=Rubik+Wet+Paint&family=Silkscreen&display=swap');
+
 *{
     
     overflow: hidden;
@@ -8,6 +11,7 @@ body{
     background-size: cover;
     font: normal 15pt 'Calibri';
     margin: 0;
+    padding: 0;
     
     
 }
@@ -16,11 +20,15 @@ header{
     color: white;
     text-align: center;
     
+    height: 11vh;
+    margin-bottom: 10vh;
+    margin-top: 0px;
+    
 
 }
 
 section{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.822);
     border-radius: 10px;
     padding: 16px;
     width: 500px;
@@ -35,6 +43,7 @@ section{
     padding: 20px; 
     margin: 0 auto; 
     overflow-x: hidden;
+    
     
     
 }
@@ -52,5 +61,30 @@ div{
     padding: 8px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
+}
+
+#msg{
+     
+        font-family: "Indie Flower", cursive;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+        font-size: 19p;
+      
+    
+}
+
+h1{
+    font-family: "Indie Flower", cursive;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+        font-size: 19p;
+        text-decoration:solid
+}
+
+#imagem{
+    border-radius: 50%;
+    height: 250px;
 }
 
